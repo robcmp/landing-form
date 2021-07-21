@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.navbar {
+    background-color: transparent !important;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+  }
+
+  .brand{
+    display: block;
+    color: #e7e7e7;
+    padding: 0 24px;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  a {
+    margin: auto;
+    text-decoration: none;
+  }
+
+  .navbar ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    margin-left: auto !important;
+    padding-right: 100px;
+  }
+
+  .navbar li a {
+    color: #e7e7e7;
+    padding: 10px 24px 10px 24px;
+    float: right;
+    display: block;
+  }
+
+.navbar ul a:hover,
+.navbar ul a:focus,
+.navbar ul .active {
+  background-color: #E18D8F;
+}
+
+  .header-pic {
+    background-color: #490D40;
+    background: url(https://sonorangirl.github.io/Earth-Quotes/img/google-earth-view-South-Iceland3.jpg) no-repeat center center;
+    background-size: cover;
+    height: 350px;
+    margin-top: -200px;
+ }
+ .heading {
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    font-family: 'Allura', cursive !important;
+    font-size: 100px;
+ }
+
+ .container {
+    height: 25em;
+    position: relative;
+    margin-top: 50px;
+ }
+
+ .container form{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+ }
+
+ input {
+	border-radius: 4px;
+	height: 40px;
+    width: 100%;
+	line-height: 40px;
+	padding: 0px 10px;
+	color: rgba(0, 0, 0, 0.5);
+	outline: none;
+	margin-bottom: 10px;
+}
+
+ button{
+    background: #64aae1;
+	color: #f6f7f9;
+	height: 40px;
+    width: 100%;
+	line-height: 40px;
+	border: none;
+	border-radius: 4px;
+	font-weight: 600;
+	margin-bottom: 10px;
+ }
+
+ textarea {
+	border-radius: 4px;
+    width: 100%;
+	padding: 0px 10px;
+	color: rgba(0, 0, 0, 0.5);
+	outline: none;
+	margin-bottom: 10px;
+ }
